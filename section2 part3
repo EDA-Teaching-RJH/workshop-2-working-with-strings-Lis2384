@@ -1,0 +1,16 @@
+gradei = int(input("what was your score?"))
+    
+if gradei >= 90 and gradei <= 100:
+        print("your grade is = A")
+
+elif gradei >= 80 and gradei <= 89:
+        print("your grade is = B")
+
+elif gradei >= 70 and gradei <= 79:
+        print("your grade is = C")
+
+elif gradei >= 60 and gradei <= 69:
+        print("your grade is = D")
+
+else:
+        print("your grade is = F")
